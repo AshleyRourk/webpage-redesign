@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+        <!-- google font access -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend&display=swap" rel="stylesheet">
+        <!-- font awesome icon access -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet">
+        <!-- custom css -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Magic Stone Jewelry</title>
+    </head>
+    <body>
+        <nav class="main-nav">
+            <a href="index.html"><img id="nav-logo" src="images/MSJ logo.png" alt="logo"></a>
+            <div class="search-bar">
+                <form id="search-form">
+                    <label for="search-text">Search</label>
+                    <input id="search-text" type="text" placeholder="search our catalog">
+                    <button type="submit" id="submit-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Earrings</a></li>
+                <li><a href="#">Pendants</a></li>
+                <li><a href="#">Jewelry</a></li>
+                <li><a href="#">Quick Shop</a></li>
+            </ul>
+            <!-- hamburger-style menu for mobile viewports -->
+            <div class="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <!-- header carousel -->
+        <section id="carouselIndicators" class="hero-header carousel slide" data-ride="carousel">
+            <!-- carousel controls -->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselIndicators" data-slide-to="2"></li>
+            </ol>
+            <!-- carousel image container -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/Stuller_Ref_4.webp" alt="A woman wearing a gold ring with a red gemstone in the center">
+                    <div class="text-bg"></div>
+                </div>
+                <div class="carousel-item">
+                    <img class="img-cropped-bottom" class="d-block w-100" src="images/Stuller_Ref_5.webp" alt="Elaborately molded gold and silver rings with colorful gemstones among a backdrop of birds and birdcages">
+                    <div class="text-bg"></div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/Stuller_Ref_7.webp" alt="Seven gold and silver rings surrounded by red petals on a light pink background">
+                    <div class="text-bg"></div>
+                </div>
+            </div>
+            <div class="header-main-text">
+                <h1>Magic Stone Jewelry</h1>
+            </div>
+            <div class="header-sub-text">
+                <p>Magic Stone carries a large selection of Diamond Engagement Rings, Diamond Earrings, Pendants, Bracelets, Pearls,
+                     and Fashion Jewelry. Staffed by knowledgeable sales people and Graduates of the Gemological Institue of America. </p>
+            </div>
+            <!-- header CTA -->
+            <a class="cta-button" href="#">Shop Our Collection</a>
+        </section>
+        <main>
+            <section class="collections">
+                <div class="collection-container">
+                    <img src="images/Stuller_Ref_9.webp" alt="A jeweler works at a bench, tinkering with a ring mold.">
+                    <div class="collection-name"><h2>Custom handmade pieces</h2></div>
+                </div>
+                <div class="collection-container">
+                    <img src="images/Stuller_Ref_1.webp" alt="A silver diamond ring placed in a ringbox with 
+                    cream colored lining and a dark blue cover.">
+                    <div class="collection-name"><h2>Wedding bands</h2></div>
+                </div>
+                <div class="collection-container" alt="">
+                    <img src="images/Stuller_Ref_3.webp">
+                    <div class="collection-name"><h2>Men's Jewelry</h2></div>
+                </div>
+                <div class="collection-container"></div>
+            </section>
+            <section class="about">
+                <div class="story-content">
+                    <h2>Why Magic Stone?</h2>
+                    <p>Magic Stone carries a large selection of Diamond Engagement Rings, Diamond Earrings, Pendants, Bracelets, 
+                        Pearls,  and Fashion Jewelry. If you are interested in Beautiful Jewelry which will always make an outstanding
+                        presentation in any setting, Magic Stone is the destination for you.</p>
+                    <p>We are staffed by knowledgable sales people and Graduates of the Gemological Institue of America. We also understand
+                        the importance of service to our customers and our expert jewelers do in-store manufacturing, sizing, and repairs.
+                    </p>
+                    <div class="more-link">
+                        <a id="about-page-link" href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="story-img">
+                    <img src="images/Stuller_Ref_10.png" alt="Four diamond encrusted rings, one silver, three gold, across a line">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <!-- middle logo and surrounding dividers-->
+            <div class="footer-decoration-container">
+                <div class="divider"></div>
+                <img src="images/MSJ logo.png" alt="logo">
+                <div class="divider"></div>
+            </div>
+            <!-- footer container holding links, address, and contact information -->
+            <div class="footer-main">
+                 <!-- container holding shop, services, company links -->
+                <div class="footer-links">
+                    <div id="footer-shop">
+                        <h4>Shop</h4>
+                        <ul class="footer-list-items">
+                            <li><a href="#">Earrings</a></li>
+                            <li><a href="#">Pendants</a></li>
+                            <li><a href="#">Bracelets</a></li>
+                            <li><a href="#">Men's Jewlery</a></li>
+                            <li><a href="#">Religious Jewelry</a></li>
+                        </ul>
+                    </div>
+                    <div id="footer-services">
+                        <h4>Services</h4>
+                        <ul class="footer-list-items">
+                            <li><a href="#">Customs</a></li>
+                            <li><a href="#">Repairs</a></li>
+                            <li><a href="#">Upgrades</a></li>
+                        </ul>
+                    </div>
+                    <div id="footer-company">
+                        <h4>Company</h4>
+                        <ul class="footer-list-items">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Our Team</a></li>
+                        </ul>
+                    </div>
+                </div>  
+                <!-- container holding mailing information -->
+                <div class="location-info">
+                    <ul class="location-items">
+                        <li><i class="fa-solid fa-location-dot"></i>123 Jewelry Ave, Lafayette LA, 70504</li>
+                        <li><i class="fa-solid fa-phone"></i>(337)123-4567</li>
+                        <li><i class="fa-solid fa-envelope"></i>magicstonejewelry@luxury.com</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- social media links -->
+            <div class="social-container">
+                <ul class="social-links">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a></a></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- bootstrap scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
