@@ -242,6 +242,7 @@ label {
 
 .story-content {
     margin-top: 30px;
+    margin-bottom: 30px;
     width: 50%;
 }
 
@@ -453,4 +454,5 @@ footer img {
         transform: rotate(-35deg) translate(8%, 15%) scale(1.1);
     }
 }
+
 
